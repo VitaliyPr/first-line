@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Main</title>
+
+    <meta name="description" content="Описание">
+    <meta name="keywords" content="Ключевики">
+    <meta name="author" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+	
+	
+    <script>
+        const totalFontSize = function() {
+            const pageWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;  
+            
+            if (pageWidth > 2000) {
+                document.documentElement.style.fontSize = '14px';
+            }else if (pageWidth > 992) {
+                let value = (pageWidth * 10 / 1920).toFixed(2);
+                document.documentElement.style.fontSize = value + 'px';
+            } else {
+                document.documentElement.style.fontSize = '10px';
+            }
+        };
+
+        totalFontSize();
+		
+		window.addEventListener('resize', totalFontSize);
+		
+    </script>
+    	
+	<link rel="stylesheet" href="css/plugins/plugins.min.css?_v=20240228131304"> 
+	
+	<link rel="stylesheet" href="css/style.min.css?_v=20240228131304">
+
+
+
+</head>
+
+<body >
+
+  
+
+  <header class="header">
+  <div class="header__wrap">
+    <div class="header__logo">
+      First Line LLC
+    </div>
+  </div>
+</header>
+  <div class="modal" id="about_us">
+  <div class="modal__wrap">
+    <h2 class="modal__title">Company Name: Ever Sky PTE. LTD</h2>
+    <div class="modal__requisites">
+      <p>EVER SKY PTE. LTD.</p>
+      <p>150 SOUTH BRIDGE ROAD #02-06 FOOK HAI BUILDING</p>
+      <p>SINGAPORE</p>
+      <p>COMMUNITY FEDERAL SAVINGS BANK</p>
+      <p>SWIFT Code - CMFGUS33</p>
+      <p>Account USD - 8313635187</p>
+    </div>
+    <h3 class="modal__director">Director - YU HONGJI</h3>
+  </div>
+</div>
+
+
+  <main>
+
+    <section class="hero">
+  <div class="hero__img">
+    <picture><source srcset="img/hero.webp" type="image/webp"><img src="img/hero.jpg" alt="" loading="lazy" class="img-full"></picture>
+  </div>
+</section>
+    <section class="about">
+  <div class="about__container">
+    <div class="about__body">
+      <h2 class="about__title">Company Name: First Line LLC</h2>
+      <div class="about__requisites">
+        <p>First Line LLC</p>
+      </div>
+      <!-- <h3 class="about__director">Director - </h3> -->
+    </div>
+    <div class="about__picture">
+      <picture><source srcset="img/" type="image/webp"><img src="img/" alt="panorama" loading="lazy" class="img-full"></picture>
+    </div>
+  </div>
+</section>
+    <section class="category">
+  <div class="category__container">
+    <div class="category__wrap" id="raw_tabs">
+      <ul class="category__tabs skltbs-tab-group">
+        <li class="skltbs-tab-item">
+          <button class="skltbs-tab">Tools</button>
+        </li>
+        <li class="skltbs-tab-item">
+          <button class="skltbs-tab">Fishing equipment</button>
+        </li>
+        <li class="skltbs-tab-item">
+          <button class="skltbs-tab">Trade Network</button>
+        </li>
+        <li class="skltbs-tab-item">
+          <button class="skltbs-tab">Technologies and Electronics</button>
+        </li>
+      </ul>
+      <div class="category__body skltbs-panel-group">
+        <div class="skltbs-panel">
+          <p class="category__text">
+            The provision of construction tools is essential for our operations, with a focus on trading a wide array of
+            tools. Within the construction industry, we excel in various equipment categories including power tools,
+            hand tools, measuring and leveling tools, as well as safety equipment. These tools are highly valuable and
+            remain consistently sought after across the construction sector. Through our robust network of suppliers and
+            clients, we guarantee a smooth and dependable supply of these tools, customized to fulfill the unique
+            requirements of our customers.
+          </p>
+          <div class="category__group">
+            <div class="category__item">
+              <div class="category-item__body">
+                <h4 class="category-item__title">Construction tools</h4>
+              </div>
+              <div class="category-item__image">
+                <picture><source srcset="img/construction-tools.webp" type="image/webp"><img src="img/construction-tools.jpg" alt="Construction tools" loading="lazy" class="img-full" /></picture>
+              </div>
+            </div>
+            <div class="category__item">
+              <div class="category-item__body">
+                <h4 class="category-item__title">Multitools</h4>
+              </div>
+              <div class="category-item__image">
+                <picture><source srcset="img/multitools.webp" type="image/webp"><img src="img/multitools.jpg" alt="Multitools" loading="lazy" class="img-full" /></picture>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skltbs-panel">
+          <p class="category__text">
+            Supplying fishing gear is vital to our operations, focusing on trading a diverse range of equipment. Within
+            the fishing sector, we specialize in various categories of gear including rods, reels, such as Shimano,
+            Lawrence, and other brands. These tools hold significant value and are consistently in demand across the
+            fishing industry. Leveraging our extensive network of suppliers and buyers, we ensure the seamless and
+            reliable supply of these gear, tailored to meet the specific needs of our customers. Additionally, our
+            inventory includes fish finders, chartplotters, and sonars to cater to all aspects of fishing enthusiasts'
+            requirements.
+          </p>
+          <div class="category__group">
+            <div class="category__item">
+              <div class="category-item__body">
+                <h4 class="category-item__title">Fishing gear</h4>
+              </div>
+              <div class="category-item__image">
+                <picture><source srcset="img/fishing-gear.webp" type="image/webp"><img src="img/fishing-gear.jpg" alt="fishing gear" loading="lazy" class="img-full" /></picture>
+              </div>
+            </div>
+            <div class="category__item">
+              <div class="category-item__body">
+                <h4 class="category-item__title">Echo sounders</h4>
+              </div>
+              <div class="category-item__image">
+                <picture><source srcset="img/echo-sounders.webp" type="image/webp"><img src="img/echo-sounders.jpg" alt="Echo sounders" loading="lazy" class="img-full" /></picture>
+              </div>
+            </div>
+            <div class="category__item">
+              <div class="category-item__body">
+                <h4 class="category-item__title">GPS</h4>
+              </div>
+              <div class="category-item__image">
+                <picture><source srcset="img/gps.webp" type="image/webp"><img src="img/gps.jpg" alt="GPS" loading="lazy" class="img-full" /></picture>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skltbs-panel">
+          <div class="category__group">
+            <div class="category__item">
+              <div class="category-item__body">
+                <p class="category-item__text">
+                  Thanks to our extensive network of suppliers and buyers, we ensure efficient and reliable trade in
+                  goods, meeting the specific requirements of our clients.
+                </p>
+              </div>
+              <div class="category-item__image">
+                <picture><source srcset="img/trade-network.webp" type="image/webp"><img src="img/trade-network.jpg" alt="" loading="lazy" class="img-full" /></picture>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skltbs-panel">
+          <div class="category__group">
+            <div class="category__item">
+              <div class="category-item__body">
+                <h4 class="category-item__title">Electronics Trade:</h4>
+                <p class="category-item__text">we offer a wide range of high-tech products.</p>
+              </div>
+              <div class="category-item__image">
+                <picture><source srcset="img/trade.webp" type="image/webp"><img src="img/trade.jpg" alt="" loading="lazy" class="img-full" /></picture>
+              </div>
+            </div>
+            <div class="category__item">
+              <div class="category-item__body">
+                <h4 class="category-item__title">Robotics</h4>
+                <p class="category-item__text">we implement modern solutions in robotics and automation.</p>
+              </div>
+              <div class="category-item__image">
+                <picture><source srcset="img/robotics.webp" type="image/webp"><img src="img/robotics.jpg" alt="" loading="lazy" class="img-full" /></picture>
+              </div>
+            </div>
+            <div class="category__item">
+              <div class="category-item__body">
+                <h4 class="category-item__title">Technical Maintenance of Electronic Systems:</h4>
+                <p class="category-item__text">we ensure the reliable functioning of electronic devices.</p>
+              </div>
+              <div class="category-item__image">
+                <picture><source srcset="img/maintenance.webp" type="image/webp"><img src="img/maintenance.jpg" alt="" loading="lazy" class="img-full" /></picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="picture">
+  <picture><source srcset="img/big-picture.webp" type="image/webp"><img src="img/big-picture.jpg" alt="" loading="lazy" class="img-full" /></picture>
+</section>
+
+    <section class="section">
+  <div class="section__container">
+    <h2 class="section__title">Contact us today</h2>
+    <p class="section__p">to learn more about our services in trading goods, as well as the technological and electronic solutions we offer.</p>
+    <form action="#" class="section__form form">
+      <input type="text" class="form__input" name="fname" placeholder="First Name" required>
+      <input type="text" class="form__input" name="fname" placeholder="Last Name" required>
+      <input type="email" class="form__input" name="fname" placeholder="Email" required>
+      <input type="text" class="form__input" name="fname" placeholder="Company" required>
+      <button type="submit" class="form__submit">Send</button>
+    </form>
+  </div>
+</section>
+   
+  </main>
+
+  <!-- END main page -->
+<!-- 
+  <footer class="footer">
+    <div class="md">
+      <div class="footer__wrap">
+        
+    </div>
+</footer> -->
+  
+  
+  <script src="js/plugins/plugins.min.js?_v=20240228131304"></script>
+
+<script src="js/app.min.js?_v=20240228131304"></script>
+ 
+</body>
+
+</html>
